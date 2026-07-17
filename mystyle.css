@@ -1,0 +1,54 @@
+/*global*/
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: arial;
+    background-color: beige;
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+p{
+    line-height: 1.5;
+}
+h1{
+    margin: 20px;
+}
+h2{
+    margin: 20px;
+}
+/*utilities*/
+.container{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*header*/
+header{
+    height: 20vh;
+    text-align: center;
+}
+
+
+/*menu*/
+table,td,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+td,th{
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+}
+th{
+    background-color: lightcoral;
+}
+.hl{
+    font-weight: bold;
+    background-color: bisque;
+}
