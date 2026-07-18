@@ -52,3 +52,65 @@ th{
     font-weight: bold;
     background-color: bisque;
 }
+.dishesTable th {
+    background-color: purple;
+    color: white;
+}
+
+.dishesTable td {
+    background-color: lavenderblush;
+}
+
+/* Dish of the month */
+.dish-month-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.dish-month-img { 
+    margin-right: 20px;
+}
+
+.dish-month-text h2 {
+    font-size: 38px;
+}
+
+.dish-month-text p {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.dish-month-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.text-flex p {
+    font-size: 22px;
+}
+
+/* Dish Container */
+.dish-container {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.dish-item {
+    background-color: #222222;
+    color: white;
+}
