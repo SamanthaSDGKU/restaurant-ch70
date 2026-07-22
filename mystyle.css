@@ -114,3 +114,27 @@ th{
     background-color: #222222;
     color: white;
 }
+
+/*form*/
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+}
+.form-container{
+    background-color: white;
+    padding: 20px;
+}
+.input-container{
+    display: flex;
+    padding: 5px;
+}
+.input-container label{
+    width: 30%;
+    text-align: left;
+}
+.input-container input,
+.input-container select,
+.input-container textarea{
+    width: 60%;
+    padding: 3px;
+}
